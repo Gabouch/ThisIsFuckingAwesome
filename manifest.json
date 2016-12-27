@@ -1,0 +1,15 @@
+{
+ "manifest_version": 2,
+ "name": "This is fucking awesome",
+ "version": "1.0",
+ "permissions": [
+  "http://*/*",
+  "https://*/*",
+  "tabs"
+ ],
+ "browser_action": {
+   "default_icon" : "a.png",
+  "default_popup": "popup.html"
+ },
+ "options_page":"options.html"
+}
